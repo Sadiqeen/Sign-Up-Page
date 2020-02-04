@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>First Team Work Page</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -29,10 +29,10 @@
                 </ul>
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">REGISTER</a>
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#registerModal">REGISTER</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Sign in</a>
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#signinModal">SIGN IN</a>
                 </li>
             </ul>
     </nav>
@@ -68,7 +68,8 @@
                       </li>
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
-                      <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">ME!!</button>
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                   </form>
               </div>
           </nav>
@@ -170,7 +171,7 @@
 
 
     <!-- footer get connected with us -->
-    <footer class="page-footer font-small ">
+    <footer class="page-footer font-small unique-color-dark pt-0">
 
       <div style="background-color: #2f343d;">
           <div class="container">
@@ -179,7 +180,10 @@
   
                   <!--Grid column-->
                   <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-                      <h5 class="mb-0 white-text" style="color: darkgray">Get connected with us on social networks!</h5>
+                    <br>
+                    <h5 class="mb-0 white-text" style="color: darkgray">Get connected with us on social networks!</h5>
+                    <br><h5 class="mb-0 white-text" style="color: darkgray">We are more than happy to serve you</h5>
+                    <br>
                   </div>
                   <!--Grid column-->
   
@@ -187,23 +191,23 @@
                   <div class="col-md-6 col-lg-7 text-center text-md-right">
                       <!--Facebook-->
                       <a class="btn-floating btn-lg btn-fb" type="button" role="button">
-                         <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+                         <i class="fa fa-facebook-square fa-2x" style="color: white;" aria-hidden="true"></i>
                       </a>
                       <!--Twitter-->
                       <a class="btn-floating btn-lg btn-tw" type="button" role="button">
-                        <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+                        <i class="fa fa-twitter-square fa-2x" style="color: white;" aria-hidden="true"></i>
                       </a>
                       <!--Google +-->
                       <a class="btn-floating btn-lg btn-gplus" type="button" role="button">
-                         <i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i>
+                         <i class="fa fa-google-plus-square fa-2x" style="color: white;" aria-hidden="true"></i>
                       </a>
                       <!--Linkedin-->
                       <a class="btn-floating btn-lg btn-li" type="button" role="button">
-                         <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+                         <i class="fa fa-linkedin-square fa-2x" style="color: white;" aria-hidden="true"></i>
                       </a>
                       <!--Instagram-->
                       <a class="btn-floating btn-lg btn-ins" type="button" role="button">
-                          <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>      
+                          <i class="fa fa-instagram fa-2x" style="color: white;" aria-hidden="true"></i>      
                       </a>
                   </div>
                   <!--Grid column-->
@@ -221,6 +225,47 @@
       </div>
     </footer>
     
+
+
+    <!-- Modal -->
+<div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
